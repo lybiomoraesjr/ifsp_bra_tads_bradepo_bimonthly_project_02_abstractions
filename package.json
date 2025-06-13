@@ -1,0 +1,57 @@
+{
+  "name": "@lybioit/component-interface-pattern",
+  "version": "1.0.1",
+  "description": "Padrão de Interface de Componente - Abstrações para desenvolvimento de componentes reutilizáveis. Projeto da disciplina BRADEPO do IFSP-BRA.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lybiomoraesjr/ifsp_bra_tads_bradepo_bimonthly_project_02_abstractions.git"
+  },
+  "keywords": [
+    "component",
+    "interface",
+    "pattern",
+    "software-engineering",
+    "component-based-development",
+    "beyond-methodology",
+    "ifsp",
+    "bradepo",
+    "typescript",
+    "abstraction",
+    "architecture"
+  ],
+  "author": {
+    "name": "Lybio Moraes Junior",
+    "email": "j.lybio@aluno.ifsp.edu.br",
+    "url": "https://github.com/lybiomoraesjr"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lybiomoraesjr/ifsp_bra_tads_bradepo_bimonthly_project_02_abstractions/issues"
+  },
+  "homepage": "https://github.com/lybiomoraesjr/ifsp_bra_tads_bradepo_bimonthly_project_02_abstractions#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
